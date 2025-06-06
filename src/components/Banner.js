@@ -72,7 +72,7 @@ export const Banner = () => {
                   <p>Results-driven Electronics Engineering student with a strong foundation in programming, web development, and problem-solving. Passionate about leveraging technology to create innovative solutions, with hands-on experience in projects like Text-to-Speech Converters and Weather Applications. Skilled in C, C++, Python, and modern web technologies such as React.js and JavaScript. Adept at collaborating in team environments and eager to contribute technical expertise to real-world challenges. Committed to continuous learning and professional growth in the field of software and electronics.</p>
                   
                   <button className="text-white rounded-pill fw-medium" 
-                   onClick={() => window.open("https://drive.google.com/file/d/1e_JwOhW87yjtO9z52IxMXV8uJC92uz_6/view?usp=sharing")}>
+                   onClick={() => window.open("https://drive.google.com/file/d/1xlnI3V2hrRYiOnI9JPoCmtPpG04jeCvI/view?usp=drivesdk")}>
       
                   <span className="resume-btn-text">RESUME</span>
                   </button>
