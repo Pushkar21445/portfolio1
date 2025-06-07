@@ -19,7 +19,7 @@ export const Projects = () => {
     imgUrl: projImg2,
   };
 
-  const projectThree = {
+  const DigitalClock = {
     title: "Digital Clock", // Example: Replace with your third project name
     description: "Digital Clock Reimagined – Clean Design, Smooth Animations, Always on Time! 🚀", // Update description
     imgUrl: projImg3,
@@ -57,7 +57,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Text-to-Speech</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">DBMS Tracker</Nav.Link> {/* Update label */}
+                      <Nav.Link eventKey="third">Digital Clock</Nav.Link> {/* Update label */}
                     </Nav.Item>
                   </Nav>
                   <Tab.Content className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -85,7 +85,7 @@ export const Projects = () => {
                     {/* Tab 3: Third Project */}
                     <Tab.Pane eventKey="third">
                       <Row>
-                        <ProjectCard {...projectThree} />
+                        <ProjectCard {...DigitalClock} />
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>
