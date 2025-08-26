@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/removebg.png";
+import headerImg from "../assets/img/MY Pic 2.png";
 import headerImg2 from "../assets/img/ball3d.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -72,7 +72,7 @@ export const Banner = () => {
                   <p>Results-driven Electronics Engineering student with a strong foundation in programming, web development, and problem-solving. Passionate about leveraging technology to create innovative solutions, with hands-on experience in projects like Text-to-Speech Converters and Weather Applications. Skilled in C, C++, Python, and modern web technologies such as React.js and JavaScript. Adept at collaborating in team environments and eager to contribute technical expertise to real-world challenges. Committed to continuous learning and professional growth in the field of software and electronics.</p>
                   
                   <button className="text-white rounded-pill fw-medium" 
-                   onClick={() => window.open("https://drive.google.com/file/d/1YE2BYO5NVwg-tQrFnIbqDnl72ijSFavx/view?usp=drive_link")}>
+                   onClick={() => window.open("https://drive.google.com/file/d/1fSAQiutMJp8EQdNkZNAdFL5bvcKuIh9f/view?usp=drive_link")}>
       
                   <span className="resume-btn-text">RESUME</span>
                   </button>
